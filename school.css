@@ -1,7 +1,8 @@
 body{style:color:black;
 }
-h1{style:color:;}
-h2{style:color:black;}
+h1{style:color: black;}
+h2{style:color:blue;}
+h4{style:color:blue;}
 *{
     box-sizing:border-box ;
 }
@@ -82,3 +83,4 @@ cursor: pointer; }
   object-fit: cover; 
   border-radius: 8px;
 }
+
