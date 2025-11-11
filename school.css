@@ -1,0 +1,84 @@
+body{style:color:black;
+}
+h1{style:color:;}
+h2{style:color:black;}
+*{
+    box-sizing:border-box ;
+}
+.column{
+    float: left;
+    width: 33.3%;
+    padding: 5px;
+     flex: 0 0 calc(50% - 10px); 
+  text-align: center;
+  margin-bottom: 20px; 
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+      display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+p{
+    font-size: larger;
+}
+.school-card{
+    background-color: white;
+    box-shadow: var(--shadow);
+    border-radius: var(--border-shadow--);
+    overflow: hidden;
+}
+section{
+    background-color: blanchedalmond;
+}
+form{
+    style:color: black;
+}
+footer{
+font-size:larger;
+background-color:blue;
+}
+main{
+font-size:larger;
+background-color:lightblue;
+}
+header{
+font-size:larger;
+background-color:lightbrown;
+}
+.menu ul{ 
+display: inline-flex; 
+margin: 50px; 
+font-family: 'Staatliches', cursive; 
+font-size: 25px; 
+} 
+.menu ul li{ 
+list-style: none; 
+margin: 0 20px; 
+color: #1385d6;
+cursor: pointer; }
+.menu {
+    background-color: #004d40;
+    padding: 10px 0;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+    }
+.menu a:hover {
+    background-color: #00695c;
+    border-radius: 5px;
+}
+.column img {
+  width: 100%;
+  height: 300px; 
+  object-fit: cover; 
+  border-radius: 8px;
+}
